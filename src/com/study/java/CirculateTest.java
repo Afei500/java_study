@@ -1,5 +1,7 @@
 package com.study.java;
 
+import com.sun.xml.internal.ws.runtime.config.TubelineFeatureReader;
+
 import java.util.Scanner;
 
 /**
@@ -64,9 +66,57 @@ public class CirculateTest {
             }
             System.out.println();
         }
- */
-//        第八题
 
+//        第八题打印输出菱形
+        for (int i = 1; i <=5; i++) {
+            for(int j=0;j<5-i;j++){
+                System.out.print(" ");
+            }
+            for (int a=0;a<i;a++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        for (int b=4;b>=1;b--){
+            for (int c=0;c<5-b;c++){
+                System.out.print(" ");
+            }
+            for (int d=0;d<b;d++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+
+//        第九题九九乘法
+        for (int i = 1; i <10; i++) {
+            for (int j = 1; j <=i; j++) {
+                System.out.print(j+"*"+i+"="+i*j+" ");
+            }
+            System.out.println();
+        }
+
+
+//        第十题求质数1-100
+        boolean b= true;
+        for (int i = 1; i <= 100; i++) {
+            for (int j = 2; j <= Math.sqrt(i); j++) {
+                if (i%j==0){
+                    b=false;
+                    break;
+                }
+            }
+            if (b==true){
+                System.out.println(i);
+            }else{
+                b=true;
+            }
+
+
+        }
+ */
 
     }
 
