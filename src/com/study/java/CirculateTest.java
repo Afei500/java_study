@@ -116,8 +116,38 @@ public class CirculateTest {
 
 
         }
+
+//        第十一题求完数
+
+        for (int i = 1; i <= 1000; i++) {
+            int factor=0;
+            for (int j = 1; j <= i/2; j++) {
+                if (i%j==0){
+                    factor+=j;
+                }
+            }
+            if (i == factor){
+                System.out.println(i);
+            }
+            factor=0;
+        }
+
+
+
+
+//        第十二题
+        for (int i = 0; i < 6; i++) {
+            for (int j=6;j>i;j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
+
  */
 
+        System.out.println();
     }
 
 }
