@@ -2,7 +2,7 @@ package com.study.java;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:杨辉三角、数组运算
  * User: zhao
  * Date: 2022-07-17
  * Time: 20:53

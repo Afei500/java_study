@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:循环练习、公约数、公倍数
  * User: zhao
  * Date: 2022-07-14
  * Time: 16:57

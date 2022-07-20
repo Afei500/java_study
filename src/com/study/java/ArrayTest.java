@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  * Created with IntelliJ IDEA.
- * Description:
+ * Description:数组简单练习
  * User: zhao
  * Date: 2022-07-16
  * Time: 23:58
